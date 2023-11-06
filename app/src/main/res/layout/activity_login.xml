@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@drawable/background_portrait"
+    tools:context="com.example.user.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:background="@drawable/type_style"
+        android:hint="Username"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:background="@drawable/type_style"
+        android:hint="Password"/>
+
+    <CheckBox
+        android:id="@+id/keep_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Keep me logged in"
+        android:textColor="#6666ff"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_style1"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_style1"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>
